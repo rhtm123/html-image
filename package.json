@@ -1,16 +1,13 @@
 {
-    "name": "my-vue-app",
+    "name": "html-project",
     "private": true,
     "version": "0.0.0",
-    "source":"index.html",
     "scripts": {
         "dev": "vite --host 0.0.0.0 --port 80",
-        "start":"parcel --host 0.0.0.0 --port 80",
         "build": "vite build",
         "preview": "vite preview"
     },
     "devDependencies": {
-        "parcel": "^2.8.2",
         "vite": "^4.0.0"
     }
 }
